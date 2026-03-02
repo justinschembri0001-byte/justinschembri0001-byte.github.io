@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LivingEdgeDigital | Modern Digital Systems for Growth</title>
+  <meta name="description" content="LivingEdgeDigital helps businesses grow with websites, automation, and practical digital strategy." />
+  <meta property="og:title" content="LivingEdgeDigital" />
+  <meta property="og:description" content="Build your digital edge with conversion-focused websites, branding, and automation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="social-preview.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LivingEdgeDigital" />
+  <meta name="twitter:description" content="Modern digital systems for business growth." />
+  <meta name="twitter:image" content="social-preview.svg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg2: #111935;
+      --text: #eef2ff;
+      --muted: #b8c0e6;
+      --accent: #60a5fa;
+      --accent2: #22d3ee;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(1200px 700px at 80% -20%, #1e3a8a55, transparent),
+                  radial-gradient(900px 500px at -10% 110%, #0891b255, transparent),
+                  linear-gradient(140deg, var(--bg), var(--bg2));
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .wrap {
+      width: min(980px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(6px);
+      border-radius: 24px;
+      padding: clamp(24px, 4vw, 56px);
+      box-shadow: 0 20px 70px rgba(0,0,0,.35);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent2);
+      border: 1px solid #22d3ee55;
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 6vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+    }
+    .grad {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p {
+      color: var(--muted);
+      font-size: clamp(16px, 2.1vw, 20px);
+      line-height: 1.6;
+      margin: 18px 0 26px;
+      max-width: 760px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+    li {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 14px;
+      color: #dbe4ff;
+      background: rgba(255,255,255,.03);
+      font-size: 15px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 12px;
+      padding: 12px 16px;
+      transition: .2s ease;
+    }
+    .btn.primary {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: #051122;
+    }
+    .btn.secondary {
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.02);
+    }
+    .btn:hover { transform: translateY(-1px); opacity: .95; }
+    .contact {
+      margin-top: 22px;
+      color: #d5dcff;
+      font-size: 14px;
+    }
+    .contact a { color: #93c5fd; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="badge">LivingEdgeDigital</span>
+    <h1>Build your <span class="grad">digital edge</span>.</h1>
+    <p>
+      We help businesses grow with conversion-focused websites, modern branding, and simple automation systems that save time and increase revenue.
+    </p>
+
+    <ul>
+      <li>⚡ Website Design & Launch</li>
+      <li>🧩 Brand & Online Presence</li>
+      <li>🤖 Automation & Operations Systems</li>
+      <li>📈 Growth-Focused Digital Strategy</li>
+    </ul>
+
+    <div class="cta-row">
+      <a class="btn primary" href="mailto:livingedgedigital@gmail.com?subject=LivingEdgeDigital%20Project%20Inquiry">Start Your Project</a>
+      <a class="btn secondary" href="https://wa.me/?text=Hi%20LivingEdgeDigital%2C%20I%27d%20like%20a%20free%20consultation." target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" style="margin-top:18px;display:grid;gap:10px;max-width:620px;">
+      <input name="name" required placeholder="Your name" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:var(--text);" />
+      <input type="email" name="email" required placeholder="Your email" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:var(--text);" />
+      <textarea name="message" required placeholder="Tell us what you need" rows="4" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:var(--text);"></textarea>
+      <button class="btn primary" type="submit" style="border:none;cursor:pointer;justify-self:start;">Send Request</button>
+    </form>
+
+    <div class="contact">
+      Contact: <a href="mailto:livingedgedigital@gmail.com">livingedgedigital@gmail.com</a><br />
+      <small>Replace <code>your-form-id</code> after creating a free Formspree form.</small>
+    </div>
+  </main>
+</body>
+</html>
